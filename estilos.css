@@ -1,0 +1,62 @@
+html, body {
+    min-height: 100%;
+}
+
+body {
+    background-image: url("\imgs/plano\ de\ fundo.png");
+    background-repeat: no-repeat;
+    background-position: left bottom;
+    background-size: cover;
+    text-align: center;
+    margin: 0px 200px 10px 200px;
+}
+
+h1, h2 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+    color: black;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    background-color: rgba(236, 236, 236, 0.911);
+    border-radius: 10px;
+    border-style: outset;
+    padding: 15px;
+    
+}
+
+#topo-da-pagina img{
+    max-width: 35%;
+    max-height: 35%;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+    border-radius: 15%;
+    border-style: inset;
+    box-shadow: 0px 2px 4px black;
+}
+
+#voltar-botão {
+    display: inline-block;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 24px;
+    padding: 8px 15px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0px 2px 4px rgba(68, 0, 255, 0.3);
+}
+  
+#voltar-botão:hover {
+    background-color: #2268ff;
+}
+  
+#voltar-botão:before {
+    display: inline-block;
+    margin-right: 5px;
+}
