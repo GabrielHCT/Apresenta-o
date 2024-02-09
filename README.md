@@ -1,1 +1,1 @@
-Site apresentando meus objetivos, espectativas e um pouco sobre mim.
+Site apresentando meus objetivos, expectativas e um pouco sobre mim.
