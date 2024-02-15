@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="x-UA-Compatible" content="IE=edge">
+        <link rel="stylesheet" href="estilos.css">
+        <link rel="icon" href="imgs/icon.png">
+        <title>Apresentação</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Protest+Strike&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
+    <body>
+        <header id="topo-da-pagina">
+            <h1 id="título-principal">SITE DE APRESENTAÇÃO</h1>
+        </header>
+        
+        <article>
+            <div>
+                <h1>INTRODUÇÃO</h1>
+                <p>Olá! Me chamo Gabriel Henrique da Costa Tavares e estou muito satisfeito em compartilhar a minha trajetória através deste site que criei com muito gosto. Quero abrir as portas do meu mundo como um jovem apaixonado por informática, que está deixando sua marca no CEFET-MG. Vamos explorar os altos e baixos, os momentos de sonho e as vitórias que moldaram quem sou hoje. Desde os meus primeiros passos nesse mundo da informática até as grandes ambições que tenho para o futuro, quero compartilhar cada parte dessa minha jornada. Espero que ao longo do site, vocês consigam captar o meu entusiasmo e o grande desejo de fazer parte do Projeto de Desenvolvimento coordenado pelo Daniel Hasan Dalip e André Rodrigues da Cruz Resumo.</p>
+            </div>
+            <div>
+                <h1>QUEM EU SOU</h1>
+                <img src="imgs/1 Foto.jpg" id="foto">
+                <button class="alternância" id="anterior" >Anterior</button>
+                <button class="alternância" id="proximo" >Próximo</button>
+                <p>Nasci em 13 de julho de 2006, tenho 17 anos de idade e sou estudante e aprendiz técnico do CEFET-MG, almejando em 2026 concluir o curso de informática (Estou no segundo ano). Tenho conhecimento em linguagem C, front-end Web e estou aprendendo atualmente Java. Minha carreira ainda está no início, mas, espero trilhar uma jornada onde eu consiga criar vários laços com pessoas (Fiz boas amizades no CEFET), obter mais conhecimento, desenvolver mais habilidades e aprender mais sobre mim. Ao final da caminhada, espero atingir todos os meus objetivos, que são: me formar e exercer a profissão de Engenheiro da Computação, realizar investimentos financeiros, aprender diversos idiomas, viajar para diversos lugares do mundo, ter estabilidade financeira, estar em um estado de bem-estar e ajudar a minha família financeiramente.<br><br>Sou uma pessoa extrovertida, voltada à família e que gosta muito de esportes como futebol, vôlei, basquete, entre outros. Gosto de momentos de lazer onde são inseridos jogar jogos competitivos. Desde criança, já utilizava o computador para as atividades diárias, sendo assim, cresci tendo uma grande afinidade com a área da informática. Como curto desafios, meu hobby predileto é desenvolver softwares para meu pai.</br></p>
+            </div>
+            <div>
+                <h1>MEUS OBJETIVOS</h1>
+                <p>Meus objetivos são diversos, sendo um deles de adquirir um emprego na área da informática que tanto gosto, me tornar financeiramente estável, obter o máximo de conhecimento que conseguir durante a vida, realização pessoal, aprender diversos idiomas e linguagens de programação, ajudar minha família financeiramente e viajar para outros países a trabalho e lazer. <br><br>Minha missão é, quando estiver mais velho, ser lembrado pelas próximas gerações como uma pessoa que trabalhou bastante, batalhou muito, um indivíduo que ajudou muitas pessoas e uma pessoa que estudou muito na vida. Meu propósito de vida é ter uma jornada onde eu trabalhe fazendo o que gosto e alcance os meus objetivos um por um. Me candidatei ao projeto pois acredito que ele irá me proporcionar experiência e o conhecimento em Python que busco e tenho grande interesse em aprender, pois ela, é uma linguagem muito utilizada atualmente em diversas empresas. Acredito que o projeto acrescentará ao meu currículo e consequentemente irei adquirir bagagem para o futuro.</p>
+            </div>
+            <div>
+                <h1>EXPECTATIVAS EM RELAÇÃO AO PROJETO</h1>
+                <p>Tenho grandes expectativas em relação ao projeto de extensão coordenado pelo Hasan e o André. Quero muito aprender a linguagem de programação Python e colocá-la em prática no desenvolvimento de softwares ao longo do projeto. Espero criar conexões no mercado de trabalho e amizades com as pessoas que participarão também. Sendo assim, aguardo ansiosamente e eufórico pela oportunidade de ser ingressado nesse promissor projeto.</p>
+            </div>
+            <div>
+                <h1>CONTATOS</h1>
+                <p>
+                    Minha página do instagram: <a href="https://www.instagram.com/gabrielhct/" target="_blank">@gabrielhct</a>
+                    <br>Whatsapp: <b>(31) 975409988</b></br>
+                    Telefone fixo: <b>(31) 35649073</b>
+                </p>
+            </div>
+        </article>
+
+        <a href="#topo-da-pagina" class="botão">⇪</a>
+        <button id="config">⚙️</button>
+
+        <dialog id="opções">
+            <h1 id="título-opções">Opções</h1>
+
+            <h2>Controle da música</h2>
+            <audio volume="5" id="música" src="áudios/música.mp3" autoplay controls preload="auto"></audio>
+
+            <h2>Plano de fundo</h2>
+            <select id="background-select">
+                <option value="bg1">Plano de fundo 1</option>
+                <option value="bg2">Plano de fundo 2</option>
+                <option value="bg3">Plano de fundo 3</option>
+                <option value="bg4">Plano de fundo 4</option>
+                <option value="bg5">Plano de fundo 5</option>
+            </select>
+
+            <button id="fechar">Fechar</button>
+        </dialog>
+        <script src="opções.js"></script>
+        <script src="modal.js"></script>
+        <script src="trocarImagens.js"></script>
+    </body>
+</html>
